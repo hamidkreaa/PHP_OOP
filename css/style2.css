@@ -1,0 +1,272 @@
+/* coursemanager style.css */
+
+/* import google font */
+@import 'font.css';
+
+* {
+    font-family: 'Overlock', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+/* ensure that html tags are block elements in older browsers */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body {
+    background-color: #cfccc6;
+}
+
+header, nav, footer, h1, h2, h3, h4, h5 {
+    padding: 0;
+}
+
+hr {
+    margin: 5px 3px;
+}
+
+header {
+    width: 100%;
+    background-color: #006ec0;
+    border: 1px solid #258edf;
+    height: 90px;
+}
+
+header img {
+    margin: 12px 8px 0px 8px;
+    height: 77px;
+    float: left;
+}
+
+header h1, nav h1 {
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-top: 22px;
+    margin-left: 185px;
+}
+
+nav h1 {
+    font-size: 	1.5em;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+nav {
+    width: 200px;
+    background-color: #258edf;
+    float: left;
+    padding-bottom: 15px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #006ec0;
+    border-top: none;
+    border-left: none;
+	box-shadow: 2px 2px 3px darkgrey;
+}
+
+nav li {
+    list-style: none;
+    padding: 4px 5px 4px 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:link {
+    color: #fff;
+    -webkit-transition: text-shadow 0.3s; /* Safari */
+    transition: text-shadow 0.3s;
+}
+
+nav li a:visited {
+    color: #fff;
+}
+
+nav li a:hover {
+    color: #fff;
+    text-shadow: 2px 2px 3px #fff;
+    -webkit-transition: text-shadow 0.3s; /* Safari */
+    transition: text-shadow 0.3s;
+}
+
+nav li a:active {
+    color: #fff;
+}
+
+nav legend {
+    margin: 5px;
+    padding: 1px;
+}
+
+nav input, nav label {
+    display: block;
+    padding: 2px;
+    margin: 3px;
+}
+
+nav input {
+    width: 180px;
+}
+
+nav input[type=submit] {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.active-nav {
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #008;
+}
+
+#content-div {
+    margin-left: 225px;
+}
+
+#content-div p {
+    padding: 10px 5px 5px 5px;
+}
+
+#content-div h1 {
+    color: black;
+    padding: 10px 5px 5px 5px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px darkgrey;
+}
+
+div#dyncontent {
+    padding-left: 10px;
+}
+
+.inputlabel {
+    float: left;
+    margin-left: 10px;
+    width: 160px;
+}
+
+.inputelement {
+    display: block;
+    padding: 4px;
+    margin: 5px;
+}
+
+.inputelement:focus {
+    background-color: lightblue;
+}
+
+h1#admin-h1 {
+    color: red;
+    padding: 10px 5px 5px 5px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px darkgrey;
+    text-decoration: underline;
+}
+
+figure {
+    display: block;
+    margin: 15px 35px 0px 35px;
+}
+
+figcaption {
+    margin-left: 40px;
+}
+
+.figure-img {
+    border: 1px solid grey;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+	margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+td {
+    color: #111;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+#wrapper-div {
+    clear: left;
+    background-color: #ffffce;
+    width: 100%;
+    min-height: 550px;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 20px;
+    background-color: #006ec0;
+    border: 1px solid #258edf;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9em;
+	box-shadow: 3px 3px 3px darkgrey;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:last-child {
+    float: right;
+    padding-right: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #fff;
+    -webkit-transition: text-shadow 0.3s; /* Safari */
+    transition: text-shadow 0.3s;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 2px 2px 3px #fff;
+    -webkit-transition: text-shadow 0.3s; /* Safari */
+    transition: text-shadow 0.3s;
+}
+
+#debug pre {
+	font-family: Courier New;
+	color: red;
+	font-size: 0.9em;
+	margin: 15px;
+	padding: 15px;
+	background-color: #eee;
+	border: 1px solid black;
+}

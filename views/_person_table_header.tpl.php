@@ -1,0 +1,9 @@
+<table>
+<tr>
+<th>Anrede</th>
+<th>Vorname</th>
+<th>Nachname</th>
+<th>Email</th>
+<th>Registriert</th>
+<th></th>
+</tr>

@@ -1,0 +1,32 @@
+/* coursemanager style.css */
+
+/* import google font */
+@import 'font.css';
+
+* {
+    font-family: 'Overlock', cursive;
+}
+
+
+/* ensure that html tags are block elements in older browsers */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+header img {
+    height: 77px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+#content-div h1 {
+    color: black;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px darkgrey;
+}
+
+footer {
+    font-size: 0.9em;
+}

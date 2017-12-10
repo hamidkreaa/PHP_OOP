@@ -1,0 +1,85 @@
+.titel{
+	
+	color:orange;
+	
+	}
+
+.preis{
+	
+	color:#0f0f0f;
+	
+	}
+table{
+	border:4px solid darkred;
+	border-collapse: collapse;
+}
+td,th{border:2px solid maroon;}
+th{background-color: #ffdd00}
+
+.book{
+	
+	-webkit-box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);	
+	box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);
+	
+	border-radius:5px;
+	width:150px;
+	height:200px;
+	float:left;
+	padding:20px;
+	margin:20px;
+	background:whitesmoke;
+	vertical-align:middle;
+	font-family:Verdana;
+	font-size:11px;
+	
+	}
+	
+.form{
+	
+	margin: auto;
+	 width:300px;
+	
+		
+}
+footer {
+    clear: left;
+    width: 100%;
+    height: 20px;
+    background-color: #006ec0;
+    border: 1px solid #258edf;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9em;
+	box-shadow: 3px 3px 3px darkgrey;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:last-child {
+    float: right;
+    padding-right: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #fff;
+    -webkit-transition: text-shadow 0.3s; /* Safari */
+    transition: text-shadow 0.3s;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 2px 2px 3px #fff;
+    -webkit-transition: text-shadow 0.3s; /* Safari */
+    transition: text-shadow 0.3s;
+}	
